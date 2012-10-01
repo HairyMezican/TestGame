@@ -1,0 +1,36 @@
+<html><head>
+<link rel="shortcut icon" href="http://108.166.123.13/favicon.ico" />
+<title>Normal Mode!</title>
+<link rel=stylesheet href="/basic.css?{{.Rand1}}" type="text/css">
+<script src="/jquery.js"></script>
+<script src="/app.js?{{.Rand2}}"></script>
+<meta name="mode" content={{.modeIndex}}>
+<meta name="clash" content={{.ClashID.Str}}>
+<meta name="player" content={{.PlayerID.Str}}>
+</head><body>
+
+<section class="loading">
+Loading...
+</section>
+
+<section class="player">
+Normal Mode!
+<button class="winthegame">Win The Game!</button>
+</section>
+
+<section class="winner">
+<h1>You Won!</h1>
+</section>
+
+<section class="loser">
+<h1>You Lost!</h1>
+</section>
+
+<section class="place">
+</section>
+
+<section class="spectator">
+Sorry - This game does not have a spectator mode
+</section>
+
+</body></html>

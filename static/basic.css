@@ -1,0 +1,19 @@
+.player {
+	display:none;
+}
+
+.winner {
+	display:none;
+}
+
+.loser {
+	display:none;
+}
+
+.spectator {
+	display:none;
+}
+
+.place {
+	display:none;
+}
